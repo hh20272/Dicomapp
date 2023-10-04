@@ -7,15 +7,14 @@ Backend: FastAPI (Python)
 Containerization: Docker
 DICOM Processing: pydicom
 ### How to Run the Application
-How to Run the Application
 Prerequisites
 Docker: Ensure Docker is installed. You can download it from Docker’s official website.
 Docker Compose: It’s included in the Docker Desktop installation.
 Steps to Run
 Clone the Repository
 Open a terminal (Command Prompt, PowerShell, or a Unix-based terminal) and run:
-git clone <repository-url>
-cd <repository-dir>
+git clone <https://github.com/hh20272/Dicomapp.git >
+cd <Dicomapp-dir>
 Build and Run Docker Containers
 Navigate to the project directory (if not already there) and run:
 docker-compose up --build
